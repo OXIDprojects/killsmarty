@@ -23,18 +23,18 @@ directory.
 Now open the adminpanel of your OXIDshop and go to:
 Stammdaten => Grundeinstellungen => System => Module
 Copy this to the field "Installierte Module in Ihrem eShop":
-----------
-oxshopcontrol => killsmarty/ksshopcontrol
-----------
+
+ oxshopcontrol => killsmarty/ksshopcontrol
 
 And this to "Additional util module":
-----------
-killksutilsview.php
-----------
+
+ killksutilsview.php
+
 
 That's it! Now you can start creating .php-files instead of the .tpl-files! :)
 
-## HowTo: ##
+HowTo:
+======
 To render a page just using php and not smarty, just create a file with the same name
 but with the ending .php. So if you want to render the startpage with php, copy the
 start.tpl to start.php. OXID will now render/include this php-file!
@@ -48,7 +48,7 @@ _s($sIdent, $aParams = array()) => shortcut for oxgetseourl
 You should take a look at my example-templates for getting a better understanding.
 I've started to convert the startpage of the shop, but couldn't finish it.
 
-## What now? ##
+What now?
 I couldn't finish this project yet, because my company decided to not use OXID, so I
 can't do it at work. I'll continue working on it, if I have some free time, so stay
 tuned ;)
